@@ -1,0 +1,32 @@
+<!--
+    Program: index.html
+    Programmer: Aaron Hillier
+    Latest Edit: April 13, 2023
+    Purpose: To present a scene view using ArcGIS Maps SDK for JS (PROG 5075 assignment 4)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROG 5075 Assignment #4</title>
+
+    <link rel="stylesheet" href="https://js.arcgis.com/4.26/esri/themes/light/main.css">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <script src="https://js.arcgis.com/4.26/"></script>
+    <script src="./scripts/main.js"></script>
+</head>
+<body>
+    <h1>
+        <img id="logo1" src="./images/nllogo.png">
+        Proposed Wind Farm Location - Western Newfoundland
+        <img id="logo2" src="./images/cogslogo.png">
+    </h1>
+    <p>Use the Line of Sight and Elevation tools to see the wind farm's topography as well as impact on neighbourings woods roads.<br>
+    Click on the protected areas to learn more about how they contribute to sustainability and diversity in NL.</p>
+    <div id="sceneDiv"></div>
+    <p>Data Sources: Government of Newfoundland and Labrador, Esri (basemaps, symbols), COGS</p>
+</body>
+</html>

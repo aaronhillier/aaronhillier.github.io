@@ -1,0 +1,33 @@
+/*
+Program: styles.css
+Programmer: Aaron Hillier
+Latest Edit: April 13, 2023
+Purpose: To provide styling for PROG 5075 assignment 4 web page
+*/
+
+html,
+body,
+#sceneDiv {
+    padding: 0;
+    margin: 0;
+    height: 90%;
+    width: 100%;
+    background-color: lightgray;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+#logo1 {
+    height: 80px;
+    padding: 10px;
+    float: left;
+}
+
+#logo2 {
+    height: 80px;
+    padding: 10px;
+    float: right;
+}
